@@ -365,6 +365,17 @@ a:hover {
   font-weight: 650;
 }
 
+.simple-list .inline-logo,
+.education-list .inline-logo {
+  height: 1.1em !important;
+  max-height: 18px;
+  width: auto !important;
+  max-width: 96px;
+  margin-left: 6px;
+  vertical-align: -0.15em;
+  object-fit: contain;
+}
+
 .footer {
   width: min(1120px, calc(100% - 48px));
   margin: 34px auto 44px;
